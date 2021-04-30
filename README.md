@@ -1,4 +1,4 @@
-# Proyect with Nextjs
+# Project with Nextjs
 
 to start the project run the following commands
 
