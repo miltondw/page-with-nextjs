@@ -1,9 +1,8 @@
-import Navbar from "../../components/Navbar";
+import Layaut from "../../components/Layaut";
 export default function Posts() {
   return (
-    <div>
-      <Navbar />
+    <Layaut>
       Page Post
-    </div>
+    </Layaut>
   );
 }

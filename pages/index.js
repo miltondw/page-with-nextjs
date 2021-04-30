@@ -1,9 +1,9 @@
-import Navbar from "../components/Navbar";
+import Layaut from "../components/Layaut";
+
 export default function Home() {
   return (
-    <div>
-      <Navbar />
+    <Layaut>
       <h1>I rendering from nextjs</h1>
-    </div>
+    </Layaut>
   );
 }

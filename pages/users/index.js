@@ -1,10 +1,10 @@
-import Navbar from "../../components/Navbar";
+import Layaut from "../../components/Layaut";
+
 export default function Users() {
   return (
-    <div>
-      <Navbar />
+    <Layaut>
       <h1>I am Users</h1>
       <p>I am rendering from Nextjs</p>
-    </div>
+    </Layaut>
   );
 }

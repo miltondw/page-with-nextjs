@@ -1,12 +1,11 @@
 import { useRouter } from "next/router";
-import Navbar from "../../components/Navbar";
+import Layaut from "../../components/Layaut";
 export default function User() {
   const router = useRouter();
   return (
-    <div>
-      <Navbar />
+    <Layaut>
       <h1>I am User details</h1>
       <p>Hi {router.query.user}</p>
-    </div>
+    </Layaut>
   );
 }
