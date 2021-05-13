@@ -9,6 +9,9 @@
     @include laptop {
         position: relative;
     }
+    @include hightMovil{
+        bottom: -65vh;
+    }
 
     &__content {
         position: absolute;
@@ -43,6 +46,10 @@
 }
 
 .map {
+    iframe {
+        width: inherit;
+        height: inherit;
+    }
     background: red;
     width: 100%;
     height: 100vh;
