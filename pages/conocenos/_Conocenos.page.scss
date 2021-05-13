@@ -92,10 +92,20 @@
         grid-template-columns: 40% 40%;
         justify-content: end;
 
+        @include tablet {
+            grid-template-columns: 100%;
+        }
+
         li {
             text-align: center;
             font-weight: bold;
             padding: 0.5em;
+
+            @include tablet {
+                padding: 0.5em 1em;
+                font-size: 18px;
+                text-align: end;
+            }
 
             &:last-child {
                 margin-bottom: 21em;
@@ -117,6 +127,13 @@
         position: absolute;
         bottom: -2.8em;
         right: 4.7em;
+
+        @include tablet {
+            height: 150px;
+            width: 150px;
+            right: 6.7em;
+            background-size: 6.5em;
+        }
     }
 }
 
@@ -228,6 +245,7 @@
             height: 460px;
             display: flex;
             margin: auto;
+            margin-bottom: 1em;
         }
     }
 
@@ -235,6 +253,7 @@
         padding: 1em;
         width: inherit;
         height: inherit;
+        
     }
 
     &__subtitle {
@@ -378,5 +397,8 @@
         left: 12%;
         margin-top: -5%;
         background: #fff;
+        @include tablet{
+            left: 10%;
+        }
     }
 }
