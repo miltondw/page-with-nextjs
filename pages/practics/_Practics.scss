@@ -1,0 +1,65 @@
+// Navbar
+.ul{
+    display: flex;
+    width: 100%;
+    height: 4em;
+    justify-content: center;
+    align-items: center;
+    .li{
+        margin: .5em;
+        .a{
+            font-size: 1.5em;
+            color: $primary-color;
+        }
+        .a:hover{
+            color: $color-nrg;
+            text-decoration: underline;
+        }
+    }
+}
+// Posts
+.post-content {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    &__link{
+        text-decoration: none;
+        color:#2e2d2d;
+    }
+    &__article {
+        padding: 1em;
+        border: 1px solid #cccc;
+        margin: 1em;
+        &:hover{
+            box-shadow: 6px -2px 20px 1px;
+            cursor: pointer;
+        }
+    }
+    &__title {
+        text-align: center;
+        text-transform: capitalize;
+        color: #2e2d2d;
+        text-decoration: underline;
+        text-decoration-color: $color-nrg;
+    }
+    &__paragraph {
+        text-align: justify;
+        padding: .5em;
+        border-left: 4px solid $primary-color;
+    }
+}
+//Post
+.content-post{
+    display: flex;
+    justify-content: center;
+    &__title{
+        font-size: 32px;
+        text-align: center;
+        text-transform: capitalize;
+        font-weight: bold;
+        text-decoration: underline;
+        text-decoration-color: $primary-color;
+    }
+    &__paragraph {
+        padding: 2em 4em;
+    }
+}

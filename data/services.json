@@ -1,0 +1,62 @@
+[
+  {
+    "id": 0,
+    "title": "CONSULTORIA",
+    "img": [
+      {
+        "src": "/images/services/icons/consultoria.png",
+        "alt": "Consultoria BJT"
+      },
+      {
+        "src": "/images/services/img/consultoria.png",
+        "alt": "Consultoria BJT"
+      }
+    ],
+    "paragraph": "Te apoyamos aportando soluciones orientadas a su finca."
+  },
+  {
+    "id": 1,
+    "title": "DISEÑO",
+    "img": [
+      {
+        "src": "/images/services/icons/diseno.png",
+        "alt": "Diseño BJT"
+      },
+      {
+        "src": "/images/services/img/diseno.png",
+        "alt": "Diseño BJT"
+      }
+    ],
+    "paragraph": "Creamos diseños con dimensiones que se ajustan a sus requerimientos"
+  },
+  {
+    "id": 2,
+    "title": "SERVICIO TÉCNICO",
+    "img": [
+      {
+        "src": "/images/services/icons/servicio-tecnico.png",
+        "alt": "Consultoria BJT"
+      },
+      {
+        "src": "/images/services/img/servicio-tecnico.png",
+        "alt": "Consultoria BJT"
+      }
+    ],
+    "paragraph": "Inspeccionamos todos los componentes de su equipo para garantizar un ordeño eficiente"
+  },
+  {
+    "id": 3,
+    "title": "GARANTIA",
+    "img": [
+      {
+        "src": "/images/services/icons/garantia.png",
+        "alt": "Garantia BJT"
+      },
+      {
+        "src": "/images/services/img/garantia.png",
+        "alt": "Garantia BJT"
+      }
+    ],
+    "paragraph": "Contamos con estrictos controles de calidad para garantizar una larga durabilidad de nuestros productos"
+  }
+]

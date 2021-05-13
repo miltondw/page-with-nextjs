@@ -1,0 +1,24 @@
+.catalogo {
+    &__items {
+        display: grid;
+        justify-content: center;
+    }
+
+    &__img {
+        h3 {
+            text-align: center;
+        }
+    }
+
+    &__cards {
+        @include tablet {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+
+        @include laptop {
+            padding: 0 4em;
+            grid-gap: 2em;
+        }
+    }
+}

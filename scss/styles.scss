@@ -1,0 +1,28 @@
+//Config
+@import "./config/colors";
+@import "./config/fonts";
+//Mixins
+@import "./mixins/breakpoints.scss";
+@import "./mixins/resets";
+//Base
+@import "./base/normalize";
+@import "./base/base";
+//Block
+@import "./blocks/toggle-menu";
+// Componetes
+    //Atoms
+@import "../components/Atoms/Title/Title.component";
+@import "../components/Atoms/CardCatalogo/CardCatalogo";
+    // Molecules
+@import "../components/Molecules/Navbar/Navbar.component";
+@import "../components/Molecules/Slider/Slider.component";
+@import "../components/Molecules/Footer/Footer.component";
+// Pages
+    // Home
+@import "../components/Pages/Home/Catalogo/Catalogo.Home.Components";
+@import "../components/Pages/Home/Services/Service.Home.component";
+    //About
+@import "../pages/conocenos/Conocenos.page";
+
+//Test
+@import "../pages/practics/Practics";

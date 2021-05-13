@@ -1,0 +1,35 @@
+ul {
+    @include reset-list;
+}
+
+*::selection {
+    background-color: $background-color;
+    color: $text-color
+}
+
+.main {
+        position: relative;
+        top: -20em;
+        @include tablet{
+            top: -19em; 
+        }
+    @include laptop {
+        top: 8em;
+    }
+}
+
+.content {
+    max-width: 1000px;
+    margin: auto;
+    padding: 1em;
+    @include laptop{
+        padding-top: 3em;
+    }
+    h1 {
+        text-align: center;
+        text-transform: uppercase;
+    }
+}
+.Bjt{
+    position: relative;
+}

@@ -1,0 +1,32 @@
+[
+    {
+      "src": "/images/slider_blog/bomba-de-vacio-bjt-300.png",
+      "alt": "bomba de vacio BJT 300",
+      "id": 0,
+      "post": {
+        "title": "¿Qué es una bomba de vacío ?",
+        "text": "Una bomba de vacío es un dispositivo mecánico diseñado para extraer fluidos (Gaseosos o líquidos) de un espacio a otro o las sustancias no deseadas de un proceso productivo. Este flujo genera una diferencia de presión medida en relación a la presión atmosférica o con referencia a un punto de trabajo concreto.",
+        "url": "url/1"
+      }
+    },
+    {
+      "src": "/images/slider_principal/cabra.png",
+      "alt": "Vaca con becerro",
+      "id": 2,
+      "post": {
+        "title": "¿Cuál es el período de gestación de una vaca?",
+        "text": "La madurez sexual del ganado vacuno es variable, dependiendo de factores como la raza y el peso del ejemplar en su etapa de madurez. El período de gestación de una vaca es variable, como media se toma de nueve meses, aunque el rango más específico comprende  entre 276 y 283 días de gestación .",
+        "url": "url/2"
+      }
+    },
+    {
+      "src": "/images/slider_blog/razas-de-ganado-vacuno-para-la-produccion-lechera.png",
+      "alt": "razas de prodducion lechera en venezuela",
+      "id": 1,
+      "post": {
+        "title": "Razas de ganado vacunos para la producción láctea",
+        "text": "El sector ganadero en Venezuela constituye una importante fuente de alimentos, tanto en el sector cárnico como en el sector lácteo, contribuyendo de una manera significativa con la SoberaníaAlimentaria del país .",
+        "url": "url/3"
+      }
+    }
+  ]

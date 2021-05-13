@@ -1,0 +1,17 @@
+[
+    {
+        "src": "/images/slider_principal/amanecer.png",
+        "alt": "Amanecer E¿en una sabana",
+        "id": 0
+    },
+    {
+        "src": "/images/slider_principal/cabra.png",
+        "alt": "cabra",
+        "id": 2
+    },
+    {
+        "src": "/images/slider_principal/bufalo.jpg",
+        "alt": "bufalo",
+        "id": 1
+    }
+]

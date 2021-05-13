@@ -1,0 +1,66 @@
+.posts {
+    position: absolute;
+    display: grid;
+    background: rgba(124, 122, 122, 0.5);
+    z-index: 3;
+    width: 91%;
+    justify-content: center;
+    padding: 0.5em;
+    border-radius: 15px;
+    height: 76%;
+
+    @include tablet {
+        width: 54%;
+    }
+
+    &__title {
+        margin: .0 .5em;
+        text-align: center;
+        font-size: 18px;
+
+        @include tablet {
+            margin: 0;
+            font-size: 22px;
+            align-self: center;
+        }
+    }
+
+    &__paragraph {
+        padding: 0 0.5em;
+        font-size: 15px;
+        @include tablet{
+            padding: 0 1em;
+            font-size: 18px;
+            align-self: center;
+            margin: 0;
+        }
+    }
+
+    &__button {
+        border-radius: 10%;
+        width: 34%;
+        text-align: center;
+        margin: auto;
+        padding: 0.2em;
+        background: #ffff;
+        border: 1px solid $color-nrg;
+        cursor: pointer;
+
+        &:hover>.posts__url {
+            color: $color-nrg;
+        }
+
+        &:hover {
+            transform: scale(.9);
+            background: #ffff;
+
+        }
+    }
+
+    &__url {
+        // color: $primary-color;
+        color: $primary-color;
+        font-weight: bold;
+        text-decoration: none;
+    }
+}

@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Inicio",
+        "link": "/"
+    },
+    {
+        "name": "Conócenos",
+        "link": "/conocenos"
+    },
+    {
+        "name": "Tienda",
+        "link": "https://tienda.industriasbjt.com/shop/"
+    },
+    {
+        "name": "Servicios",
+        "link": "/servicios"
+    },
+    {
+        "name": "Blog",
+        "link": "/blog"
+    }
+]

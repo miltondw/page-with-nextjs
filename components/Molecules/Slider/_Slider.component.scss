@@ -1,0 +1,53 @@
+.slider {
+    margin: auto;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    &__images {
+        position: relative;
+        left: 0;
+        transition: left 1s;
+    }
+    &__img {
+        display: inline-flex;
+        margin: 0;
+        padding: 0;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        img{
+            width: 100%;
+            height: 360px;
+            @include tablet{
+                height: 500px;
+            }
+        }
+    }
+
+    &__navigation {
+        height: 20px;
+        width: 100%;
+        margin: 1em auto;
+        display: flex;
+        justify-content: space-around;
+        position: absolute;
+        bottom: 0;
+    }
+}
+
+.slider-nav {
+    height: 11px;
+    width: 8%;
+    border-radius: 13%;
+    background: transparent;
+    z-index: 90;
+    border: 2px solid #ffff;
+    &:hover {
+        background: rgba(255, 255, 255, 0.787);
+    }
+    &--active {
+        box-shadow: 2px 2px gray;
+        background: rgba(255, 255, 255, 0.787);
+    }
+}
+@import './posts'

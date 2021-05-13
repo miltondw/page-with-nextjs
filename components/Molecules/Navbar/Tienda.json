@@ -1,0 +1,148 @@
+[
+    {
+        "name":"Componentes y Accesorios",
+        "link":"10-componentes-y-repuestos",
+        "subitems":[
+            {
+                "name":"Abrazaderas",
+                "link":"34-abrazaderas"
+            },
+            {
+                "name":"Aceiteras",
+                "link":"15-aceiteras"
+            },
+            {
+                "name":"Cántaras",
+                "link":"17-cantaras"
+            },
+            {
+                "name":"Casquillos",
+                "link":"18-casquillos"
+            },
+            {
+                "name":"Colectores",
+                "link":"19-colectores"
+            },
+            {
+                "name":"Conexiones y Reducciones",
+                "link":"51-conexiones-y-reducciones-"
+            },
+            {
+                "name":"Electricidad",
+                "link":"52-electricidad"
+            },
+            {
+                "name":"Filtros de Leche",
+                "link":"22-filtros-de-leche"
+            },
+            {
+                "name":"Gomas",
+                "link":"57-gomas"
+            },
+            {
+                "name":"Grupo de Ordeño",
+                "link":"23-grupo-de-ordeno"
+            },
+            {
+                "name":"Lavado",
+                "link":"24-lavado"
+            },
+            {
+                "name":"Lubricantes",
+                "link":"39-lubricantes"
+            },
+            {
+                "name":"Mangueras",
+                "link":"25-mangueras"
+            },
+            {
+                "name":"Paletas",
+                "link":"48-paletas"
+            },
+            {
+                "name":"Pesadores",
+                "link":"27-pesadores"
+            },
+            {
+                "name":"Poleas",
+                "link":"49-poleas"
+            },
+            {
+                "name":"Pulsadores",
+                "link":"28-pulsadores"
+            },
+            {
+                "name":"Reducciones de Rosca",
+                "link":"30-reducciones-de-rosca"
+            },
+            {
+                "name":"Reguladores de vacío",
+                "link":"54-reguladores-de-vacio"
+            },
+            {
+                "name":"Silenciadores",
+                "link":"55-silenciadores"
+            },
+            {
+                "name":"Tapas Para Cantara",
+                "link":"60-tapas-para-cantara"
+            },
+            {
+                "name":"Trampa Sanitaria",
+                "link":"56-trampa-sanitaria"
+            },
+            {
+                "name":"Vacuómetros",
+                "link":"47-vacuometros"
+            },
+            {
+                "name":"Válvulas",
+                "link":"36-valvulas"
+            }
+        ] 
+    },
+    {
+        "name":"Desinfectantes y Selladores",
+        "link":"32-desinfectantes-y-selladores-"
+    },
+    {
+        "name":"Bienestar Animal",
+        "link":"59-bienestar-animal-"
+    },
+    {
+        "name":"Cepillos",
+        "link":"44-cepillos"
+    },
+    {
+        "name":"Fermentos",
+        "link":"45-fermentos"
+    },
+    {
+        "name":"Pezoneras",
+        "link":"46-pezoneras"
+    },
+    {
+        "name":"Salas y Tarimas de Ordeño",
+        "link":"33-salas-de-ordeno-"
+    },
+    {
+        "name":"Grupos de Vacío",
+        "link":"12-grupos-de-vacio"
+    },
+    {
+        "name":"Ordeños Portátiles",
+        "link":"13-ordenos-portatiles"
+    },
+    {
+        "name":"Unidades Finales",
+        "link":"14-unidades-finales"
+    },
+    {
+        "name":"Bombas",
+        "link":"11-bombas"
+    },
+    {
+        "name":"Motores",
+        "link":"61-motores"
+    }
+]

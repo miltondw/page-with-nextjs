@@ -1,0 +1,21 @@
+.Card-catalogo{
+    &__body {
+        display: grid;
+        justify-items: center;
+    }
+    &__title {
+        color: $primary-color;
+        font-weight: bold;
+    }
+    &__btn {
+        width: 36%;
+        border-radius: 10px;
+        padding: .3em;
+        background: $primary-color;
+    }
+    &__link {
+        text-decoration: none;
+        color: #ffff;
+        font-weight: bold;
+    }
+}

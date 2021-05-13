@@ -1,0 +1,53 @@
+.footer {
+    position: absolute;
+    border: 1px solid;
+    bottom: -55vh;
+    margin: 0;
+    display: grid;
+    width: 100%;
+
+    @include laptop {
+        position: relative;
+    }
+
+    &__content {
+        position: absolute;
+        z-index: 80;
+        top: 0;
+        width: 48%;
+        justify-self: self-end;
+        background: $primary-color;
+        color: #ffff;
+        padding: .5em 1em;
+        border-radius: 0 0 24px 24px;
+
+        @include tablet {
+
+            width: 30%;
+        }
+
+        @include laptop {
+            width: 24.9%;
+        }
+    }
+
+    &__title,
+    &__paragraph {
+        text-align: center;
+    }
+
+    &__address {
+        display: grid;
+        justify-items: center;
+    }
+}
+
+.map {
+    background: red;
+    width: 100%;
+    height: 100vh;
+
+    @include tablet {
+        height: 70vh;
+    }
+}

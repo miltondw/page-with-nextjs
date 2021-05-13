@@ -1,9 +1,9 @@
-import Layaut from "../components/Layaut";
-
-export default function Home() {
+import Layaut from "../components/Template/Layaut";
+import Home from "../components/Pages/Home/Home";
+export default function App() {
   return (
     <Layaut>
-      <h1>I rendering from nextjs</h1>
+      <Home />
     </Layaut>
   );
 }

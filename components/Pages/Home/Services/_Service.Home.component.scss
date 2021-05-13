@@ -1,0 +1,42 @@
+.services {
+    &-content {
+        @include tablet {
+            display: grid;
+            grid-template-columns: repeat(2, 2fr);
+            grid-gap: 1em;
+        }
+        @include laptop{
+            grid-template-columns: repeat(4, 2fr);
+        }
+    }
+
+    &__item {
+        display: grid;
+        justify-items: center;
+        @include tablet{
+            margin: 1em;
+        }
+    }
+
+    &__icon {
+        justify-self: center;
+    }
+
+    &__title {
+        color: $primary-color;
+        text-align: center;
+    }
+
+    &__paragraph {
+        text-align: center;
+        width: 60%;
+    }
+
+    .services__img {
+        display: none;
+
+        @include tablet {
+            display: inline-block;
+        }
+    }
+}

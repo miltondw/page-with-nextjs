@@ -1,0 +1,11 @@
+.content-title{
+    padding: .5em;
+    margin: 1em;
+    border-bottom: 2px solid #cccc;
+    &__title{
+        color: $primary-color;
+        font-size: 32px;
+        text-align: center;
+        margin: 0;
+    }
+}
